@@ -1,0 +1,15 @@
+.o_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.o_container h1 {
+  font-weight: bold;
+}
+
+.o_container .info {
+  margin-bottom: 3rem;
+}
+.o_container .info_1 {
+  margin-bottom: 1rem;
+}

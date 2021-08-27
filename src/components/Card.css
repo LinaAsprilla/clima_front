@@ -1,0 +1,77 @@
+.o_container_card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.o_container_card .ant-card-bordered {
+  border-radius: 20px;
+}
+.o_container_card .ant-card-cover img {
+  border-radius: 20px 20px 0 0;
+}
+
+.o_container_card h2 {
+  position: absolute;
+  z-index: 2;
+  margin-top: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(33 17 129);
+  font-size: 1.2rem;
+}
+
+.o_container_card p {
+  color: rgb(33 17 129);
+  position: absolute;
+  z-index: 2;
+}
+
+.o_container_card .date {
+  top: 42px;
+}
+
+.o_container_card h1 {
+  color: rgb(33 17 129);
+  position: absolute;
+  z-index: 2;
+  top: 54px;
+  font-size: 2.2rem;
+}
+
+.o_container_card .climate {
+  bottom: 88px;
+  left: 2px;
+  color: white;
+  background-color: rgb(82 65 180);
+  border-radius: 0 14px 14px 0;
+  padding: 3px 16px 0 7px;
+  bottom: 125px;
+  left: 0;
+}
+
+.o_container_card .ant-card-body {
+  padding: 15px;
+}
+
+.climate span {
+  font-weight: bold;
+}
+
+.row_footer .div_footer{
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #d6d6d6;
+}
+.div_footer.wind {
+  border: none;
+}
+
+.row_footer p{
+ color: #525252;
+ font-size: 0.8rem;
+}
+.row_footer img{
+  width: 25px;
+  margin-bottom: 0.3rem;
+}
